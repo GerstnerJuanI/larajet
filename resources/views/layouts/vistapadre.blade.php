@@ -54,7 +54,7 @@
             </div>
         </div>
     </nav>
-    <h1>Hello, world!</h1>
+    <h1>Contenido de la vista padre</h1>
 
     @yield('contenidoPrincipal')
 

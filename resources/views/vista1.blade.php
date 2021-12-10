@@ -1,6 +1,8 @@
 @extends('layouts.vistapadre')
 
 @section('contenidoPrincipal')
+<h1>Contenido de la vista 1</h1>
+
 <div class="card" style="width: 18rem;">
     <img src="{{asset('images/favicon.ico')}}" class="card-img-top" alt="...">
     <div class="card-body">
