@@ -1,6 +1,13 @@
-@extends('layouts.plantillaBase')
-@section('contenido')
-<h2>CREAR REGISTROS</h2>
+@extends('adminlte::page')
+
+@section('title', 'Articulos|Crear')
+
+@section('content_header')
+    <h1>CREAR REGISTROS</h1>
+@stop
+
+@section('content')
+
 <form class="form-floating" action="/articulos" method="POST">
     @csrf
     <div class="form-floating mb-3">
@@ -22,4 +29,11 @@
     <a href="/articulos"  class="btn btn-secondary" tabindex="5">Cancelar</a>
     <button type="submit" class="btn btn-primary" tabindex="4">Guardar</button>
 </form>
-@endsection
+@stop
+
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+@stop
